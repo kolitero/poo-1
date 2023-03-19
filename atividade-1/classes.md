@@ -2,10 +2,7 @@
    classDiagram;
       Itens <|-- Produto;
       Venda <|-- Itens;
-      class Produto{
-      }
-      class Itens{
-      }
-      class Venda{
-      }
+      class Produto;
+      class Itens;
+      class Venda;
 ```
