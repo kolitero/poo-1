@@ -1,8 +1,11 @@
 ``` mermaid
-graph TD;
-   A-->B;
-   A-->C;
-   B-->D;
-   C-->D;
-
+   classDiagram;
+      Itens <|-- Produto;
+      Venda <|-- Itens;
+      class Produto{
+      }
+      class Itens{
+      }
+      class Venda{
+      }
 ```
